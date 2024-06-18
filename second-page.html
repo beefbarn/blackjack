@@ -9,10 +9,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <title>Beef Barn Games</title>
+    <script src="scripts/second-page.js" defer></script>
   </head>
   <body>
     <h1>I'm gonna put a little blackjack game on this page!</h1>
-    <button class="styled" type="button" name="hit-button">Hit Me!</button>
-    <button class="styled" type="button" name="stand-button">Stand.</button>
+     <!-- Card images container -->
+  <div id="card-images-container">
+    <img src="" alt="Card 1" id="card1">
+    <img src="" alt="Card 2" id="card2">
+    <img src="" alt="Card 3" id="card3">
+    <img src="" alt="Card 4" id="card4">
+    <img src="" alt="Card 5" id="card5">
+  </div>
+    <div id="output" class="output-box"></div>
+    <div id="card-result" class="output-box"></div>
+    <input type="text" id="userInput" placeholder="Say something..." class="styled" />
+    <button id="hitme" class="styled" type="button" name="hit-button">Hit Me!</button>
+    <button id="standme" class="styled" type="button" name="stand-button">Stand.</button>
   </body>
 </html>

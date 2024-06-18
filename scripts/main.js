@@ -9,7 +9,7 @@ myImage.onclick = () => {
   }
 };
 
-let myButton = document.querySelector("button.init");
+let myButton = document.querySelector("#changeuser");
 let myHeading = document.querySelector("h1");
 
 function setUserName() {

@@ -20,7 +20,8 @@ html {
   }
 
 body {
-    width: 600px;
+    width: 1000px;
+    height: 800px;
     margin: 0 auto;
     background-color: #77308299;
     padding: 0 20px 20px 20px;
@@ -69,4 +70,37 @@ img {
       inset -2px -2px 3px rgba(255, 255, 255, 0.6),
       inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
-  
+
+#userInput {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1.6rem;
+  width: 200px;
+}
+
+.output-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  min-height: 50px;
+  font-size: 1.4rem;
+}
+
+body {
+  position: relative; /* Ensure body is relative for absolute positioning */
+}
+
+#card-images-container {
+  position: absolute;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  display: flex;
+}
+
+#card-images-container img {
+  width: 100px; /* Adjust size as needed */
+  margin-left: 10px; /* Adjust spacing between images */
+  border: 1px solid #ccc; /* Optional border */
+}
